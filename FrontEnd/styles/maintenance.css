@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: overlay;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal-section {
+    background-image: url("../assets/backgroundReg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.local-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+}
+
+header {
+    width: 95%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.local-buttons-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.button-header {
+    color: black;
+    text-decoration: none;
+}
+
+.content-section {
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+}
+
+.align-itens-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.content-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left img {
+    width: 80%;
+}
+
+.content-right {
+    width: 50%;
+    padding: 15px;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(136.27deg, #0094FF 1.03%, #000744 100.85%);
+    box-shadow: 0px 27px 106px 10px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.titleForm {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.align-itens-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-itens-top select {
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 5px;
+    background: none;
+    color: white;
+}
+
+.align-itens-top select option {
+    color: black;
+    padding: 15px;
+}
+
+.input-item {
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 5px;
+    background: none;
+    color: white;
+}
+
+.input-item::placeholder {
+    color: white;
+    padding: 5px;
+}
+
+.align-itens-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.align-itens-bottom input {
+    width: 35%;
+}
+
+.align-itens-bottom button {
+    width: 25%;
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    background: none;
+    color: white;
+    background: linear-gradient(94.78deg, #00F0FF 0%, #4E7BF0 100%);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.align-itens-bottom button:hover{
+    background: linear-gradient(94.78deg, #0027B1 0%, #0032B1 100%);
+    border: none;
+}
+
+.local-destinations{
+    height: 30%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 5px;
+    background: none;
+    color: white;
+}
+
+.button-verification{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90.43deg, #2BEDFA 0.09%, #0066FF 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.result-section{
+    background-color: #001872;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locale-result{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    background: linear-gradient(109.73deg, #0085FF 0%, #001A5E 100%);
+    box-shadow: 0px 27px 106px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    height: 80%;
+}
+
+.img-result{
+    width: 50%;
+}
+
+.img-result img{
+    width: 100%;
+    height: 100%;
+}
+
+.infos-result{
+    width: 50%;
+    height: 90%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infos-result h1{
+    color: white;
+    font-size: 30px;
+}
+
+.infos-result p{
+    color: white;
+    font-size: 20px;
+}

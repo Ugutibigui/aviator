@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: overlay;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal-section{ 
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    height: 100vh;
+}
+.local-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+}
+header{
+    width: 95%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+}
+.local-buttons-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+.button-header{
+    color: black;
+    text-decoration: none;
+}
+.content-section{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+}
+.align-itens-section{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-left{
+    width: 45%;
+    padding: 15px;
+    height: 60%;
+}
+.content-left h2{
+    color: white;
+    font-size: 35px;
+}
+.content-left button{
+    width: 200px;
+    height: 40px;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: white;
+    color: #567BFC;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+}
+.content-right{
+    width: 48%;
+    padding: 15px;
+}
+.content-right img{
+    width: 86%;
+}
+.informations-section{
+    width: 100vw;
+    background-color: #00071F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-informations{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+.align-itens-section2{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.box-infos{
+    border: 1px solid white;
+    width: 32%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+.box-infos h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.box-infos p{
+    color: white;
+    text-align: justify;
+}
+footer div img{
+    width: 80%;
+}
