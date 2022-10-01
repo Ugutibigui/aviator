@@ -33,39 +33,32 @@
                     <div class="form">
                         <h1 class="titleForm">Cadastrar um avião</h1>
                         <div class="align-inputs">
-                            <input type="text" placeholder="Nome do avião" class="input-info">
-                            <input type="text" placeholder="Velocidade média" class="input-info">
+                            <input type="text" placeholder="Nome do avião" class="input-info" id="nome">
+                            <input type="number" placeholder="Velocidade média" class="input-info" id="velocidade">
                         </div>
                         <h2 class="subtitleForm">Horas de voo para manutenção:</h2>
                         <div class="align-inputs">
-                            <input type="text" placeholder="Pneus" class="input-info">
-                            <input type="text" placeholder="Troca de óleo" class="input-info">
-                            <input type="text" placeholder="Motor" class="input-info">
-                            <input type="text" placeholder="Fuselagem" class="input-info">
-                            <input type="text" placeholder="Freios" class="input-info">
-                            <input type="text" placeholder="Asas" class="input-info">
-                            <input type="text" placeholder="Turbinas" class="input-info">
-                            <input type="text" placeholder="Para-brisa" class="input-info">
+                            <input type="number" placeholder="Pneus" class="input-info" id="hr_peneu">
+                            <input type="number" placeholder="Troca de óleo" class="input-info" id="hr_oleo">
+                            <input type="number" placeholder="Motor" class="input-info" id="hr_motor">
+                            <input type="number" placeholder="Fuselagem" class="input-info" id="hr_fuselagem">
+                            <input type="number" placeholder="Freios" class="input-info" id="hr_freio">
+                            <input type="number" placeholder="Asas" class="input-info" id="hr_asa">
+                            <input type="number" placeholder="Turbinas" class="input-info" id="hr_turbina">
+                            <input type="number" placeholder="Para-brisa" class="input-info" id="hr_parabrisa">
                         </div>
-                        <button>Cadastrar</button>
+                        <button onclick="salvarInfosAviao()"><a href="#plains-section">Cadastrar</a></button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="plains-section">
+    <section class="plains-section" id="plains-section">
         <h1>Seus aviões</h1>
-        <div class="airplains-locale">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+        <div class="airplains-locale" id="airplains-locale">
+            
         </div>
     </section>
+    <script src="../scripts/register.js"></script>
 </body>
 </html>

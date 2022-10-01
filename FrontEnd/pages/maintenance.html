@@ -35,23 +35,20 @@
                     <div class="form">
                         <h1 class="titleForm">Cadastrar um avião</h1>
                         <div class="align-itens-top">
-                            <select aria-placeholder="Escolha um aviçao">
+                            <select id="select">
                                 <option value="">Selecione um avião</option>
-                                <option value="">Teste</option>
-                                <option value="">Teste</option>
-                                <option value="">Teste</option>
                             </select>
-                            <input type="text" placeholder="Local de partida" class="input-item">
+                            <input type="text" placeholder="Local de partida" class="input-item" id="localPartida">
                         </div>
                         <div class="align-itens-bottom">
-                            <input type="text" placeholder="Local de destino" class="input-item">
-                            <input type="text" placeholder="Distância (Km)" class="input-item">
-                            <button>Adicionar</button>
+                            <input type="text" placeholder="Local de destino" class="input-item" id="nomeDestino">
+                            <input type="text" placeholder="Distância (Km)" class="input-item" id="distanciaDestino">
+                            <button onclick="adicionarDestino()">Adicionar</button>
                         </div>
-                        <div class="local-destinations">
-
+                        <div class="local-destinations" id="local-destinations">
+                            <p>Não existem destinos adicionados :(</p>
                         </div>
-                        <button class="button-verification">Verificar</button>
+                        <button class="button-verification" onclick="verificar()">Verificar</button>
                     </div>
                 </div>
             </div>
@@ -75,7 +72,7 @@
             </div>
         </div>
     </section>
-
+<script src="../scripts/maintenance.js"></script>
 </body>
 
 </html>
