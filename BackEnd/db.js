@@ -37,8 +37,16 @@ async function receberInfosAviao(){
     return await conn.query(sql, values)
 }
 
+async function receberInfosAviaoUnico(id){
+    const conn = await connect()
+    const sql = 'SELECT * FROM aviao WHERE id = ?;'
+    const values = [id]
+    return await conn.query(sql, values)
+}
+
 
 module.exports = {
     salvaAviao,
-    receberInfosAviao
+    receberInfosAviao,
+    receberInfosAviaoUnico
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../styles/register.css">
     <title>Cadastrar avião</title>
 </head>
+
 <body>
     <section class="principal-section">
         <div class="local-header">
@@ -47,7 +49,11 @@
                             <input type="number" placeholder="Turbinas" class="input-info" id="hr_turbina">
                             <input type="number" placeholder="Para-brisa" class="input-info" id="hr_parabrisa">
                         </div>
-                        <button onclick="salvarInfosAviao()"><a href="#plains-section">Cadastrar</a></button>
+                        <a href="#plains-section" onclick="salvarInfosAviao()">
+                            <button>
+                                Cadastrar
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -56,9 +62,10 @@
     <section class="plains-section" id="plains-section">
         <h1>Seus aviões</h1>
         <div class="airplains-locale" id="airplains-locale">
-            
+
         </div>
     </section>
     <script src="../scripts/register.js"></script>
 </body>
+
 </html>

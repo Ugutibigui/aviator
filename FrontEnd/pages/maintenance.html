@@ -48,31 +48,33 @@
                         <div class="local-destinations" id="local-destinations">
                             <p>Não existem destinos adicionados :(</p>
                         </div>
-                        <button class="button-verification" onclick="verificar()">Verificar</button>
+                        <a href="#result-section" onclick="verificar()">
+                            <button class="button-verification">Verificar</button>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="result-section">
+    <section class="result-section" id="result-section">
         <div class="locale-result">
             <div class="img-result">
                 <img src="../assets/airplane-simulation.png" alt="">
             </div>
-            <div class="infos-result">
+            <div class="infos-result" id="infos-result">
                 <h1>Locais de manutenção</h1>
-                <p>Pneus:</p>
-                <p>Motor:</p>
-                <p>Freios:</p>
-                <p>Turbinas:</p>
-                <p>Troca de óleo:</p>
-                <p>Fuselagem:</p>
-                <p>Asas:</p>
-                <p>Para-brisa:</p>
+                <p class="titleP">Pneus:</p>
+                <p class="titleP">Motor:</p>
+                <p class="titleP">Freios:</p>
+                <p class="titleP">Turbinas:</p>
+                <p class="titleP">Troca de óleo:</p>
+                <p class="titleP">Fuselagem:</p>
+                <p class="titleP">Asas:</p>
+                <p class="titleP">Para-brisa:</p>
             </div>
         </div>
     </section>
-<script src="../scripts/maintenance.js"></script>
+    <script src="../scripts/maintenance.js"></script>
 </body>
 
 </html>

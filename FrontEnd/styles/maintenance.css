@@ -247,7 +247,18 @@ header {
     font-size: 30px;
 }
 
-.infos-result p{
+.titleP{
+    font-size: 20px;
     color: white;
+}
+
+.infos-result div{
+    display: flex;
+    align-items: center;
+}
+
+.especialP{
+    color: #00FF85;
+    margin-left: 15px;
     font-size: 20px;
 }

@@ -17,6 +17,9 @@ app.use("/app/salvarInfosAviao",salvarInfosAviao);
 const carregarInfosAviao = require("./routes/carregarInfosAviao");
 app.use("/app/carregarInfosAviao",carregarInfosAviao)
 
+const simulacao = require("./routes/simulacao")
+app.use("/app/simulacao",simulacao)
+
 
 let port = process.env.PORT || 3000; //escolha de porta ou setando a porta 3000
 
