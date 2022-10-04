@@ -81,7 +81,24 @@ header{
 }
 .content-right img{
     width: 86%;
+    animation-duration: 5s;
+    animation-name: transicao;
+    animation-iteration-count: infinite;
 }
+
+@keyframes transicao {
+    0% {
+        transform: translateY(45px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateY(45px);
+    }
+    
+  }
+
 .informations-section{
     width: 100vw;
     background-color: #00071F;

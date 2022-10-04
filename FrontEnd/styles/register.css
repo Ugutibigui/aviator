@@ -38,6 +38,11 @@ header {
     border-radius: 10px;
 }
 
+header a {
+    color: black;
+    text-decoration: none;
+}
+
 .local-buttons-header {
     display: flex;
     align-items: center;
@@ -173,7 +178,7 @@ header {
     padding: 15px;
     width: 95%;
     height: 40%;
-    background: url("../assets/airplane-simulation.png");
+    background: url("../assets/backgroundCard.jpg");
     background-size: 100%;
     background-position: 50%;
     margin-bottom: 10px;

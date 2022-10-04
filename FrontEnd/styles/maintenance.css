@@ -38,6 +38,12 @@ header {
     border-radius: 10px;
 }
 
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
 .local-buttons-header {
     display: flex;
     align-items: center;
