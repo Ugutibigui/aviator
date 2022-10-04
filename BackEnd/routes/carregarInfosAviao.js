@@ -12,12 +12,13 @@ router.get('/', async (req, res) => {
 
     try {
         const [infos] = await db.receberInfosAviao()
-        console.log(infos)
+        
         result.data = infos
         result.message = "Informações carregadas"
         result.ok = true
         res.json(result);
         console.log(result)
+
     } catch (err) {
         console.log(err)
         result.ok = false

@@ -26,7 +26,7 @@ function adicionarDestino() {
     let localDestinos = document.getElementById("local-destinations")
     localDestinos.innerHTML = ""
     infos.destinos.push(infoDestino)
-    console.log(infos.destinos)
+    
 
     for (let i = 0; i < infos.destinos.length; i++) {
         localDestinos.innerHTML += `<div class="cardDestino">${infos.destinos[i].nome}</div>`
@@ -35,7 +35,7 @@ function adicionarDestino() {
 
 async function verificar() {
     infos.localPartida = document.getElementById("localPartida").value,
-        infos.idAviao = document.getElementById("select").value
+    infos.idAviao = document.getElementById("select").value
 
     let resp = await fetch(`http://localhost:3000/app/simulacao`, { //acessando localização da minha api
         method: 'POST', //escolhendo o metodo de requisição

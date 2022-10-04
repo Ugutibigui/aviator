@@ -43,12 +43,11 @@ router.post('/', async (req, res) => {
         info.destinos.forEach(item => {
             item.distancia = parseInt(item.distancia)
         });
+
         info.destinos = info.destinos.sort((a, b) => b.distancia - a.distancia);
 
         for (let i = 0; i < info.destinos.length; i++) {
             let tempo = calculoTempo(info.destinos[i].distancia)
-            console.log(calculoTempo(info.destinos[i].distancia))
-            console.log(info.destinos[i].nome)
 
             if (result.data.destino_pneu == info.localPartida) {
                 if (infosAviao[0].hr_pneu >= tempo) {

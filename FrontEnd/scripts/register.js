@@ -30,7 +30,6 @@ async function salvarInfosAviao() {
 }
 
 async function carregarInformacoes() {
-    console.log("entrou")
     let resp = await fetch(`http://localhost:3000/app/carregarInfosAviao`) //fazendo comunicação com a api
     let info = await resp.json() //recebendo as informações da api
 
